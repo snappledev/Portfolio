@@ -16,3 +16,6 @@ features custom 3D models that you can animate and rotate
 page shows a description of the page
 
 
+![alt text](https://github.com/snappledev/Portfolio/blob/main/assets/home.png?raw=true)
+
+![alt text](https://github.com/snappledev/Portfolio/blob/main/assets/home1.png?raw=true)
