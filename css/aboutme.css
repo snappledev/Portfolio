@@ -1,0 +1,111 @@
+
+.neonborder {
+    border: 2px solid #0f0;
+    box-shadow: 0 0 10px #0f0;
+    border-radius: 10px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    /*background: #000; */
+}
+
+.neon-text {
+    color: #0f0;
+    text-shadow: 0 0 10px #0f0;
+}
+
+.statistics-tbl  {
+    width: 100%;
+    color: #0f0;
+}
+
+.statistics-tbl td {
+    padding: 8px;
+    border-bottom: 1px solid #0f0;
+}
+
+.btn-neon {
+    background: transparent;
+    border: 2px solid #0f0;
+    color: #0f0;
+    padding: 8px 15px;
+    margin: 5px;
+    transition: all 0.3s;
+    /*
+    text-shadow: 0 0 10px #0f0;*/
+
+}
+
+.btn-neon:hover {
+    background: #0f0;
+    color: #000;
+}
+
+.controls {
+    margin-top: 20px;
+    /* padding: 20px; */
+}
+
+.slider {
+    width: 100%;
+    background: #333;
+}
+
+.slider-group {
+    margin: 10px 0;
+}
+#canavsbox {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.cstm-controls {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.7);
+    /* background: #000; 
+    
+    z-index: 1;*/
+    
+
+    padding: 15px;
+    border: 2px solid #0f0;
+    border-radius: 8px;
+}
+
+.info-column {
+    padding: 20px 0;
+}
+
+.about-site-section {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 2px solid #0f0;
+}
+.mcontainer2 {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 60px 80px;
+}
+body{
+    background-color: black;
+}
+.modelbox {
+    position: relative;
+    height: 70vh;
+    margin-top: 20px; 
+    width: 40vh;
+    border-left: 2px solid #0f0;
+    border-right: 2px solid #0f0;
+    box-shadow: 0 0 20px #0f0;
+
+    /*
+    border-left: 1px solid #0a0;
+    border-right: 1px solid #0a0;
+    box-shadow: 0 0 5px #0a0;
+
+    */
+}

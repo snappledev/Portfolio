@@ -1,0 +1,104 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    /* 
+    height: 100vh
+    width: 100vw;
+     */
+    overflow: hidden;
+    background-color: #010101;
+}
+#canvas {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    image-rendering: pixelated;
+}
+canvas {
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    /* image-rendering: -moz-crisp-edges; */
+}
+.node-tooltip {
+    position: fixed;
+    background: rgba(0,0,0,0.9);
+    color: #0f0;
+    padding: 1rem;
+    border: 2px solid #0f0;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+    max-width: 200px;
+}
+.node-tooltip img {
+   width: 100%;
+    height: 120px;
+    object-fit: cover;
+    margin-top: 0.5rem;
+    /*object-position: center;
+    object-fit: sit;*/
+ 
+}
+.node-info-panel {
+    position: fixed;
+    background: rgba(0,0,0,0.95);
+    color: #0f0;
+    padding: 2rem;
+    border: 3px solid #0f0;
+    /* border: 1px solid #0f0;*/
+    max-width: 400px;
+    width: 90vw;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: monospace;
+    /* font-size: 18px; */
+    z-index: 1000;
+    box-shadow: 0 0 20px rgba(0,255,0,0.3);
+    pointer-events: none;
+}
+.node-info-panel img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin: 1rem 0;
+}
+.network-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    /* background: rgba(0, 0, 0, 0.5); */
+    pointer-events: none;
+    background: linear-gradient(rgba(0, 255, 0, 0.05) 50%, transparent 50%), linear-gradient(90deg, rgba(0, 255, 0, 0.05) 50%, transparent 50%);
+    background-size: 3px 3px;
+    mix-blend-mode: screen;
+    z-index: 1;
+    filter: blur(0.5px);
+    opacity: 0.8;
+}
+.logoff-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    /* 
+    right: 20px; 
+    bottom: 20px; 
+    */
+    color: #0f0;
+    font-family: monospace;
+    font-size: 18px;
+    cursor: pointer;
+    pointer-events: auto;
+    text-shadow: 0 0 5px #0f0;
+}
+.logoff-button:hover {
+    color: #0f8;
+}
