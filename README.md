@@ -18,4 +18,15 @@ page shows a description of the page
 
 ![alt text](https://github.com/snappledev/Portfolio/blob/main/assets/home.png?raw=true)
 
-![alt text](https://github.com/snappledev/Portfolio/blob/main/assets/home1.png?raw=true)
+![alt text](https://github.com/snappledev/Portfolio/blob/main/assets/home2.png?raw=true)
+
+![alt text](https://github.com/snappledev/Portfolio/blob/main/assets/home3.png?raw=true)
+
+![alt text](https://github.com/snappledev/Portfolio/blob/main/assets/node.png?raw=true)
+
+![alt text](https://github.com/snappledev/Portfolio/blob/main/assets/aboutme1.png?raw=true)
+
+![alt text](https://github.com/snappledev/Portfolio/blob/main/assets/aboutme2.png?raw=true)
+
+![alt text](https://github.com/snappledev/Portfolio/blob/main/assets/aboutme4.png?raw=true)
+
